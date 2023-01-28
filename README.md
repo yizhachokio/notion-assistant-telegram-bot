@@ -1,2 +1,2 @@
-# notion-assistant-telegram-bot
+# Notion Assistant Telegram Bot
 Telegram assistant bot for Notion.
