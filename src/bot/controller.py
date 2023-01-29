@@ -25,10 +25,4 @@ class Controller:
             bot.reply_to(message, "tr.test")
 
         print("Bot has started!")
-        bot.polling()
-
-
-        while True:  # Don't end the main thread.
-            pass
-
-        # Handle /start and /help
+        bot.infinity_polling()
