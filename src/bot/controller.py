@@ -10,7 +10,7 @@ class Controller:
         # setting up translation
         i18n.set('file_format', 'json')
         i18n.set('locale', 'en')
-        i18n.load_path.append("res/assets/bundles")
+        i18n.load_path.append("res/translations")
 
         TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
         bot = telebot.TeleBot(TOKEN)
