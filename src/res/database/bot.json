@@ -1,0 +1,6 @@
+{
+    "USER_ID": {
+        "notion_token": "NOTION_TOKEN",
+        "bookmarks_database_id": "BOOKMARK_DATABASE_ID"
+    }
+}
