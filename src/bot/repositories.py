@@ -22,6 +22,7 @@ class Repo(ABC):
 
 
 class JSONRepo(Repo):
+    """Can be used as context manager"""
     def __init__(self, repo_path: str):
         self._repo_path: str = repo_path
         self._database: Dict[str, Dict[str, str]] = {}
